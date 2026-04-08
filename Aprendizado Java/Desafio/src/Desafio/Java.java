@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Java {
     public static void main(String[] args) {
+
         Scanner leitura = new Scanner(System.in);
         double saldo = 2500.00;
         double valorTransferencia = 0;
@@ -14,7 +15,7 @@ public class Java {
                 "\nDados iniciais do cliente:\n" +
                 "\nNome: Pedro Chakur" +
                 "\nTipo de conta: Corrente" +
-                "\nSaldo Inicial R$"+ saldo +
+                "\nSaldo Inicial R$ "+ saldo +
                 "\n****************");
 
 
